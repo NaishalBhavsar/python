@@ -1,0 +1,2 @@
+2026-01-29 20:07:41 | INFO | trading_bot | HTTP POST /fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'newOrderRespType': 'RESULT', 'timeInForce': 'GTC', 'price': 70000.0, 'timestamp': 1706548661000, 'recvWindow': 5000, 'signature': '***redacted***'} signed=True
+2026-01-29 20:07:41 | INFO | trading_bot | HTTP /fapi/v1/order -> 200 body={"orderId":987654321,"status":"NEW","executedQty":"0","avgPrice":"0.0","price":"70000.0"}
